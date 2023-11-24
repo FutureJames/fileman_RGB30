@@ -2,8 +2,8 @@
 #define _DEF_H_
 
 #include <vector>
-#include <SDL.h>
-#include <SDL_ttf.h>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_ttf.h>
 
 //~ #define INHIBIT(X) X
 #define INHIBIT(X) /* X */
@@ -44,8 +44,8 @@
 
 // Parameters for rk3566
 #elif defined(DEVICE_RK3566)
-   #define SCREEN_WIDTH             640
-   #define SCREEN_HEIGHT            480
+   #define SCREEN_WIDTH             720
+   #define SCREEN_HEIGHT            720
    #define HARDWARE_ACCELERATION    0
    #define FULLSCREEN               1
    #define FONT_NAME                "NotoSans-Regular.ttf"

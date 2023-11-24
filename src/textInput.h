@@ -2,7 +2,7 @@
 #define _TEXTINPUT_H_
 
 #include <string>
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include "window.h"
 
 class TextInput : public IWindow

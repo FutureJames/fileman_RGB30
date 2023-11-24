@@ -1,5 +1,7 @@
 # FileMan
-A single panel file Manager forked from 351Files.
+A single panel file Manager forked from JeloOS fileman.
+Specifically updated to support the screen resolution of the RGB30.
+Additional functionality updates added
 
 Based on DinguxCommander.
 * Original page: https://tardigrade-nx.github.io/2011/dinguxcommander

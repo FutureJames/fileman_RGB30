@@ -1,22 +1,22 @@
-TARGET = fileman 
+TARGET = FileManagerRGB30 
 
-DEVICE ?= AMD64
-DEVICE ?= RK3326
-DEVICE ?= RK3399
-DEVICE ?= RK3566
-DEVICE ?= RK3566_X55
-DEVICE ?= RK3588
-DEVICE ?= S922X
-DEVICE ?= PC
+#DEVICE ?= AMD64
+#DEVICE ?= RK3326
+#DEVICE ?= RK3399
+DEVICE ?= RK3566 ##
+#DEVICE ?= RK3566_X55
+#DEVICE ?= RK3588
+#DEVICE ?= S922X
+#DEVICE ?= PC
 
-START_PATH ?= "/"
+START_PATH ?= "/storage/roms"
 RES_PATH ?= "./res"
 
-ifeq ($(DEVICE),PC)
+#ifeq ($(DEVICE),PC)
 	CC = $(CXX)
 	SDL2_CONFIG = sdl2-config
-	START_PATH = $(PWD)
-endif
+	#START_PATH = $(PWD)
+#endif
 
 SRC = $(wildcard src/*.cpp)
 OBJ = $(patsubst %cpp,%o,$(SRC))
@@ -31,3 +31,4 @@ all : $(OBJ)
 
 clean :
 	rm -f $(OBJ) $(TARGET)
+

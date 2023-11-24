@@ -1,7 +1,7 @@
 #ifndef _KEYBOARD_H_
 #define _KEYBOARD_H_
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include <string>
 #include "window.h"
 

@@ -2,7 +2,7 @@
 #define _WINDOW_H_
 
 #include <string>
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 // Buttons with timer
 enum {

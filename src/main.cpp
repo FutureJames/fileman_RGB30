@@ -1,8 +1,8 @@
 #include <string>
 #include <vector>
 #include <sstream>
-#include <SDL.h>
-#include <SDL_ttf.h>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_ttf.h>
 #include "def.h"
 #include "sdlutils.h"
 #include "mainWindow.h"
